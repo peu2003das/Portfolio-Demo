@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(178, 182, 180);
+    /*width: 250px;*/
+    height: 120vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color: firebrick;*/
+    height: 58vh;
+    width: 75vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 15%;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 21px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.divpic img {
+    height: 58vh;
+    mix-blend-mode: difference;
+
+}
+
+.contactform h2 {
+    font-family: 'Oswald', sans-serif;
+    /*text-align: center;*/
+    padding: 12px 0;
+}
+
+.contactform {
+    font-family: 'Oswald', sans-serif;
+    /* padding-top: 100px; */
+    padding: 0 34px;
+    margin: 20px 15%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+} 
+
+.contactform form div {
+    padding: 6px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 18vw; */
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: rgb(17, 17, 179);
+    margin: 0px;
+    padding: 3px 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 4px 0;
+}
+
+.btn-sm {
+    padding: 7px 17px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 9px 3px;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.blogContainer {
+    margin: 20px 88px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 25px;
+}
+
+.blogItem p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro { 
+     margin: 88px; 
+}
+
+.intro h2 {
+    font-family: 'Oswald', sans-serif;
+      margin-left: 200px;  
+}
+
+.intro p {
+    font-family: 'Open Sans', sans-serif;
+     margin-left: 200px;
+}
+
+.skillContainer { 
+    margin-left: 200px; 
+    /*background-color: red;*/
+ } 
+
+.skillItem {
+
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    position: relative;
+}
+
+.skill {
+    position: absolute;
+    left: 5rem;
+    width: 250px;
+    height: 6px;
+    background-color: rgba(255, 0, 0, 0.349);
+    margin: 12px;
+    border: 2px solid black;
+}
+
+.skill .html {
+    position: absolute;
+    background: green;
+    width: 80%;
+    height: 6px;
+}
+
+.skill .CSS {
+    position: absolute;
+    background: green;
+    width: 60%;
+    height: 6px;
+}
+
+.skill .Javascript {
+    position: absolute;
+    background: green;
+    width: 50%;
+    height: 6px;
+}
+
+.skill .Python {
+    position: absolute;
+    background: green;
+    width: 50%;
+    height: 6px;
+}
+
+.skill .C {
+    position: absolute;
+    background: green;
+    width: 70%;
+    height: 6px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    mix-blend-mode: darken;
+    background-blend-mode: darken;
+
+}
+
+.ham {
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+.cross { 
+     gap: 5;
+     position: absolute; 
+     top: 100px; 
+     margin-left: 20px; 
+     margin-top: 70px; 
+  }  
+
+.hamburger img{ 
+ background-blend-mode: lighten; 
+ }  
+
+/* .cross{
+    gap: 5;
+ margin-left: 50px; 
+ margin-top: 5px; 
+  }   */
+
+@media(max-width: 1615px) {
+    body {
+        background-color: rgb(red, green, blue);
+    }
+
+}
+
+.divpic {
+    display: none;
+}
+
+.intro,
+.contactform,
+blogContainer {
+    margin: 50px 8px;
+}
+
+/*.sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+}*/
